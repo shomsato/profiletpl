@@ -1,3 +1,8 @@
+.yomogibold {
+    font-family: "yomogi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .yomogi {
     font-family: "yomogi", sans-serif;
     font-weight: 400;
@@ -20,4 +25,5 @@
     background: linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url(https://edge-server.224.works/AzaleaWorks_ToneungaDrone.jpg);  /* 背景画像指定 */
     background-repeat:  no-repeat;  /* 背景の繰り返し設定 */
     background-position: center;    /* 背景の位置指定 */
+    background-attachment: fixed;
 }
