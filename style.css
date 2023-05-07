@@ -21,14 +21,37 @@
     width: 40rem;
     max-width: 95%;
 }
-.bg-test {
+.bgimage {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-image: url(https://edge-server.224.works/AzaleaWorks_ToneungaDrone.jpg);
     background-repeat:  no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     position: fixed;
-    overflow: auto;
+    z-index: -10;
 }
+  
+.box1 {
+    width: 40rem;
+    max-width: 95%;
+    position: relative;
+}
+.box1:before,
+.box1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -2px;
+    left: -2px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    z-index: -1;
+}
+.box1:after {
+    top: 2px;
+    left: 2px;
+    background-color: rgba(250, 250, 250, 0.7);
+    z-index: -2;
+} 
