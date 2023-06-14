@@ -35,7 +35,7 @@
     background-image: url(https://edge-server.224.works/AzaleaWorks_ToneungaDrone.jpg);
     background-repeat:  no-repeat;
     background-position: center center;
-    background-color:rgba(220, 250, 255, 0.8);
+    background-color:rgba(225, 250, 255, 0.85);
     background-blend-mode:lighten;
     background-size: cover;
 }
@@ -45,7 +45,7 @@
     background-image: url(https://edge-server.224.works/unga_3d.jpg);
     background-repeat:  no-repeat;
     background-position: center center;
-    background-color:rgba(10, 20, 45, 0.8);
+    background-color:rgba(10, 20, 45, 0.85);
     background-blend-mode:darken;
     background-size: cover;
 }
